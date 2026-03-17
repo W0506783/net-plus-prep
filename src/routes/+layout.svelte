@@ -8,6 +8,7 @@
     <div class="nav-links">
       <a href="/drill">Drill</a>
       <a href="/exam">Exam</a>
+      <a href="/notes">Notes</a>
       <a href="/progress">Progress</a>
     </div>
   </div>
