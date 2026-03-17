@@ -1,0 +1,570 @@
+// All of the below are domain: 'Networking Concepts',
+// To be mapped appropriately to questions.js
+
+Q: What is the primary benefit of utilizing SMTP TLS?
+A. It increases the delivery speed of emails
+B. It ensures that all mail is encrypted in transit
+C. It eliminates the need for authentication
+D. It allows the use of UDP instead of TCP
+Answer: B
+Explanation:Simple Mail Transfer Protocol (SMTP) operating over Transport Layer Security (TLS) ensures that all mail is encrypted in transit, increasing the security of the mail’s content.
+
+Q: Which of the following is an accurate description of the Platform as a Service (PaaS) model of cloud computing?
+A. PaaS is any application that you use but do not own or maintain.
+B. PaaS allows a customer to generate code on the provider’s platform that can be executed.
+C. PaaS only includes web hosting services like GoDaddy and A Small Orange.
+D. PaaS providers charge the customer based on the amount of storage used.
+Answer: B
+Explanation: Explanation: Platform as a Service (PaaS) allows a customer to generate code on the provider’s platform that can be executed. This means customers can develop applications on the provider’s platform, which can then run on the cloud. Google App Engine is a good example of a PaaS provider.
+
+Q: What is network address translation (NAT) primarily used for?
+A. Translating a network address from English to another language
+B. Converting an IP address to a physical address
+C. Translating one network address to another
+D. Changing a public IP address to a private one internally for routing purposes
+Answer: C
+Explanation: Network address translation (NAT) allows private IP addresses to be converted into public IPs for communication over the internet. It also allows for the conversion of overlapping network addresses for example after company mergers into non overlapping ones.
+
+Q: What does the ’On-Demand Self-Service’ characteristic of cloud computing as defined by NIST entail?
+A. The capabilities are accessible over a network and are not a contrived system.
+B. Computer capabilities can be elastically provisioned based on the customer’s requirements.
+C. A customer can provision computer capabilities and resources without any human interaction.
+D. The intent is to time-share a pool of resources over many several virtual instances.
+Answer: C
+Explanation: In the context of cloud computing and as defined by NIST, On-Demand Self-Service means that customers can independently provision computing capabilities such as CPU, storage, network resources, or instances of virtual machines without requiring human intervention from the service provider. This is a critical characteristic of cloud services, enabling scalability and flexibility. I guess answer B implies human intervention to accomplish "elactic provisioning".
+
+Q: Why is RG-6 preferred over RG-59 for new coaxial cable installations?
+A. RG-6 is cheaper than RG-59
+B. RG-6 is thinner than RG-59
+C. RG-6 has a larger inner core, insulator, and better shielding than RG-59
+D. RG-59 is not readily available in the market
+Answer: C
+Explanation: Explanation: RG-6 is preferred over RG-59 because it has a larger inner core, larger insulator and better shielding. This makes it better for infrastructure wiring and the preferred choice for new installations.
+
+Q: What is NOT a characteristic of cloud computing as defined by the National Institute of Standards and Technology (NIST)?
+A. On-demand self-service
+B. Resource pooling
+C. Rapid elasticity
+D. Limited network access
+Answer: D
+Explanation: The NIST does not identify ’Limited network access’ as a defining characteristic of cloud computing. Instead, it specifies ’Broad network access’ as a key characteristic, meaning the services are accessible over a network and not limited to proprietary connections.
+
+Q: Which of the following is a disadvantage of public cloud hosting?
+A. High initial cost
+B. Lack of control over hosting
+C. There are no disadvantages
+D. Monthly reoccurring fee
+Answer: D
+Explanation: As the text highlights, the biggest disadvantage to public cloud hosting is the monthly reoccurring fee which becomes a consistent operational expense. This is due to the fact that you are essentially ’renting’ time and space on someone else’s infrastructure.
+
+Q: Which of the following statements best describes the function and use of the hosts file?
+A. It is a dynamic file used for translation of hosts to IP addresses.
+B. It is a static file used for translation of hosts to IP addresses and operates as an override to DNS.
+C. It is the primary method of resolving fully qualified domain names (FQDNs) to IP addresses on modern networks.
+D. It is a deprecated file used in the early days of the internet, but it is no longer in use today.
+Answer: D
+Explanation: The hosts file is a static file that was originally used for translation of hosts to IP addresses. It still exists today locally on operating systems as an override to DNS.
+
+Q: What best explains the Anycast IP address type?
+A. It is type of IP address that serves the farthest host logically
+B. It is a unique IP address assigned to a single host
+C. It enables multiple hosts to share the same IP address to serve the nearest client
+D. It is an IP address that is mapped to hundreds of servers globally, without specific route statements
+Answer: C
+Explanation: Anycast IP address enables multiservice routing. When a request comes in, it would be directed to the nearest server, enabling sharing and efficient use of resources.
+
+Q: What does the ’D’ in 23B + D, in the context of PRIMARY Rate Interface (PRI), represent?
+A. Data carrier
+B. Digital Signal
+C. Delta channel
+D. Data transfer
+Answer: C
+Explanation: The D in the 23B+D shorthand for a Primary Rate Interface (PRI) circuit signifies the D (delta) channel. The D channel controls call setup while the B channels carry data or voice calls.
+
+Q: What are the different types of IPv4 address types and components that are also applicable to IPv6?
+A. Binary, Octal, Decimal and Hexadecimal
+B. Private, Public and Loopback addresses
+C. IP addresses, Subnet masks, Broadcast addresses and Gateway
+D. Link-Local addresses, Unique Local addresses, Global addresses
+Answer: C
+Explanation: The concepts of IP addresses, Subnet masks, Broadcast addresses and Gateway are constituents of IPv4 addressing that are also applicable in IPv6.
+
+Q: What is a DSLAM in the context of a DSL network?
+A. A special filter for preventing voice calls from interrupting data communications
+B. A component of the POTS system that limits frequencies above 3400 hertz
+C. A piece of equipment at the central office that communicates with a premise’s modem
+D. A particular type of modem specific to DSL connections
+Answer: C
+Explanation: The DSL Access Multiplexer (DSLAM) is a piece of equipment located at the central office, or telephone provider’s main location. It is an integral part of the DSL network and faciliates communication between the central office and the modem at the customer’s location.
+
+Q: Which of the following is a common SAN (Storage Area Network) technology found in data centers?
+A. Ethernet
+B. Fibre Channel
+C. Wi-Fi
+D. Bluetooth
+Answer: B
+Explanation: According to the given passage, Fibre Channel (FC) is a common SAN technology found in data centers. It is noted that a typical SAN in data centers connects servers to the storage through Fibre Channel switches.
+
+Q: What is the main function of a Channel Service Unit/Data Service Unit (CSU/DSU) in a T1 service?
+A. It converts the channels back into a stream of data.
+B. It defines the type of service being ordered.
+C. It checks the data for errors and fixes them.
+D. It participates in the routing process.
+Answer: A
+Explanation: The Channel Service Unit/Data Service Unit (CSU/DSU) is primarily used to convert the channels back into a stream of data. It takes the data from each of the 24 channels or ’buckets’ and combines it into a consistent, usable data stream.
+
+Q: Where is the back side of a patch panel typically connected to in a wiring closet?
+A. Computer terminal RJ-45 jack
+B. The Internet
+C. The network router
+D. The patch cable
+Answer: A
+Explanation: The text describes that in a wiring closet, the back side of a patch panel is punched down to the network cabling that is connected to the computer terminal RJ-45 jack. This makes it a diagnostic point for Ethernet network connections.
+
+Q: What are some of the functions of the Presentation layer (layer 6) ?
+A. Responsible for physical connections between devices
+B. Handles encryption/decryption, translation, and compression/decompression of data
+C. Manages data packet forwarding
+D. Ensures reliable end-to-end communications
+Answer: B
+Explanation: The Presentation layer is responsible for representing data in a readable format for the Application layer. It manages tasks like encryption/decryption (for secure transmission), translation (so data is understood by receiving applications), and compression/decompression (for easier transfer).
+
+Q: What is the Protocol Data Unit (PDU) for the Transport layer in the OSI model?
+A. Datagram
+B. Segment
+C. Packet
+D. Frame
+Answer: B
+Explanation: During data transmission in the OSI model, the Transport layer creates segments from the datagrams passed on from the upper layers (Application, Presentation, Session). Therefore, the Protocol Data Unit (PDU) for the Transport layer would be a ’Segment’.
+
+Q: What is the defined range and default mask for a Class B network?
+A. Range of 1 to 126 with a default mask of 255.0.0.0
+B. Range of 192 to 223 with a default mask of 255.255.255.0
+C. Range of 128 to 191 with a default mask of 255.255.0.0
+D. Range of 224 to 239 with no default subnet mask
+Answer: C
+Explanation: Class B networks have a defined range of 128 to 191 for the first octet along with a default mask of 255.255.0.0. This range and mask allow for the unique identification of medium-sized networks with the ability to accommodate 65,534 hosts.
+
+Q: What is meant by ’Broad Network Access’ in the context of cloud computing according to NIST?
+A. It refers to the pool of resources that are shared over many virtual instances.
+B. It refers to the ability of cloud services to be accessible over a network, not being a proprietary system.
+C. It signifies the ability to meter the resources of CPU, network, storage, etc.
+D. It refers to the process of allocating resources based on a customer’s requirements at the time.
+Answer: B
+Explanation: According to NIST, ’Broad Network Access’ refers to the network accessibility of cloud services. Unlike old mainframe systems that required a proprietary connection, cloud services can be accessed over a network. This access is not restricted to certain devices, and includes mobile devices, laptops, desktop computers, etc.
+
+Q: What are the two main methods for providing secure access to applications hosted in public clouds that need access to a private data center?
+A. SSL and SSH
+B. Firewalls and IDS systems
+C. VPN and Private-Direct Connection
+D. MPLS and LAN
+Answer: C
+Explanation: The two main methods for providing secure access to applications hosted in public clouds that need to access a private data center are via a VPN (virtual private network) and via a Private-Direct Connection. The VPN method involves creating a secure, encrypted tunnel to transmit data over the internet. The Private-Direct Connection method is via a WAN (wide area network) build-out that requires planning and can tie you to a specific data center location. It is costly but provides high security and low latency.
+
+Q: What does the dot signify at the end of Fully Qualified Domain Names (FQDNs) in DNS resolution?
+A. It indicates the start of the DNS zone.
+B. It signifies the root of all DNS resolution.
+C. It points to the registrar.
+D. It specifies the Secondary DNS Server.
+Answer: B
+Explanation: In DNS resolution, the dot at the end of Fully Qualified Domain Names (FQDNs) signifies the root of all DNS resolution. It is like the origin from where the resolution process begins.
+
+Q: What is the specification that broadband cable operates on called?
+A. High-Level Data Link Control
+B. DOCSIS
+C. Digital Subscriber Line
+D. Fiber-optic node
+Answer: B
+Explanation: Broadband cable operates on a specification called Data Over Cable Service Interface Specification (DOCSIS), which enables high-bandwidth data transfer to an existing cable TV (CATV) system.
+
+Q: What is the standard color of SMF patch cables based on the provided text?
+A. Blue
+B. Red
+C. Yellow
+D. Green
+Answer: C
+Explanation: The text specifies that the standard color of SMF patch cables is yellow. The text I guess is CompTIA Network+ Review Guide: Exam N10-008 5th Edition (Page 121 in PDF)
+
+Q: What is the primary benefit of Desktop as a Service (DaaS) in terms of security?
+A. It allows for data processing in the cloud
+B. It reduces the risk of physical theft of the edge device
+C. It increases the speed of the connection
+D. It enables the use of multiple operating systems
+Answer: A
+Explanation: DaaS pushes the processing of data to the cloud. This means that the edge device, or user’s computer, does not retain a copy of the data that could otherwise be copied onto a USB drive or potentially stolen. This mitigates the risk of data theft or data loss due to malicious activities.
+
+Q: What is the role of the Transport layer in a network?
+A. The Transport layer is responsible for moving information down to the network layer from the TCP or UDP protocol
+B. The Transport layer presents the application with a socket to communicate with on the network
+C. The Transport layer contains two protocols: TCP and UDP
+D. All of the above
+Answer: D
+Explanation: The Transport layer has multiple roles: It is responsible for moving data down to the network layer from either the TCP or UDP protocol, presents the application with a socket to communicate on the network, and contains the two protocols, TCP and UDP.
+
+Q: What is the significance of Generic Router Encapsulation (GRE) in connecting two offices separated by the Internet?
+A. It prohibits the use of routing protocols
+B. It enables privacy of data being tunneled through an internetwork
+C. It discourages the use of GRE because it is a clear-text protocol
+D. It allows a routing protocol such as Open Shortest Path First (OSPF) to work between the two offices
+Answer: D
+Explanation: GRE uses tunneling and the concept of overlays to make it look like routers A and B are directly connected. This makes it possible for routing protocols such as OSPF to work even when the offices are separated by several Internet routers.
+
+Q: Which feature of the Internet Message Access Protocol (IMAP) contributes to its popularity over the Post Office Protocol (POP)?
+A. IMAP operates on TCP port 143
+B. IMAP allows multiple email clients to access the same email box simultaneously
+C. IMAP transmits information in clear text
+D. IMAP operates over SSL on TCP port 993
+Answer: B
+Explanation: IMAP allows for multiple email clients to access the same email box simultaneously. This multi-email client access is one of the key features that fashions its sustained popularity.
+
+Q: What is the purpose of Class E network IDs in IP addressing?
+A. They are used for large networks.
+B. They are used for multicasting purposes.
+C. They are considered for experimental use only and were never used.
+D. They are used for small networks.
+Answer: C
+Explanation: Class E network IDs are not used at all—they are considered for experimental use only and were never used. All networking devices would have to be reprogrammed to accommodate these addresses, which turned out to be unfeasible.
+
+Q: What are the three basic forms of communications a network application can use at the Session layer?
+A. Half-duplex, Full-duplex, Multiplex
+B. Half-duplex, Simplex, Full-duplex
+C. Unidirectional, Duplex, Simplex
+D. Bidirectional, Multidirectional, Half-duplex
+Answer: B
+Explanation: The three basic forms of communications a network application can use at the Session layer are Half-duplex, Full-duplex, and Simplex. Half-duplex is a two-way communication between two hosts where only one side can communicate at a time. Full-duplex is two-way communication between two hosts where both sides can communicate simultaneously. Simplex is a one-way communication between two hosts.
+
+Q: What are the three methods that an internet provider may use to hand off service?
+A. Satellite, fiber optic, wireless
+B. Copper, fiber optic, wireless
+C. Copper, undersea fiber, wireless
+D. Fiber optic, DSL, wireless
+Answer: B
+Explanation: The text mentions three methods used by an internet provider to hand off service: copper, fiber optic, or wireless.
+
+Q: What distinguishes a Krone block panel from a 110 block panel?
+A. Krone block panel is predominantly used in the United States while 110 block panel is used in the United Kingdom
+B. Krone block panel has smaller punchdown spades
+C. The punchdown spades on Krone block are larger and require a specific Krone punchdown tool
+D. A 110 block punchdown tool can be used on a Krone block panel
+Answer: C
+Explanation: The Krone block panel distinctively has larger punchdown spades compared to a 110 block panel and specifically requires a Krone punchdown tool.
+
+Q: What are some characteristics of the User Datagram Protocol (UDP)?
+A. UDP is connection-oriented and highly reliable.
+B. UDP performs sequencing and retransmits segments if necessary.
+C. UDP does not provide acknowledgement for received data.
+D. UDP uses a large amount of overhead at the Transport layer.
+Answer: C
+Explanation: UDP is connectionless and does not acknowledge receipt of data. It simply passes data from one IP address over the network to another IP address without ensuring the data has been received.
+
+Q: In what situation is the use of Shielded Twisted-Pair (STP) cable most recommended?
+A. When cabling near large motors, welding equipment, HVAC equipment, high-voltage lighting
+B. When the cabling is least expensive
+C. When electromagnetic interference (EMI) is not a concern
+D. When the Ethernet jack shielding and RJ-45 shielding are not required
+Answer: A
+Explanation: STP cables are recommended for use in situations where there is a high likelihood of electromagnetic interference (EMI), such as large motors, welding equipment, and high-voltage lighting, as the metal weaved shielding protects the twisted pairs of wires from induced erroneous data.
+
+Q: What function does port forwarding perform behind a NAT?
+A. It restricts internal hosts from using services offered by external hosts.
+B. It enables external hosts to contact services on an internal host in the network.
+C. It allows all incoming traffic from the public interface to the internal network without a static entry mapping.
+D. It blocks any connection made to the outside IP address.
+Answer: B
+Explanation: Port forwarding allows external hosts on the public Internet to contact and use services on an internal host in a network that exists behind a NAT. This is made possible through a manual static entry mapping of the internal IP address and port to an IP address on the public interface of the router.
+
+Q: How does a DHCP server know which scope to serve the remote subnet when an IP helper or DHCP relay agent is used?
+A. It uses the MAC address of the client requesting the DHCP address.
+B. It uses the GIADDR (Gateway Interface Address) field of the DHCP packet.
+C. The DHCP server determines it based on the subnet value.
+D. The DHCP server request identifier matches against the IP helper or relay agent identifier.
+Answer: B
+Explanation: The DHCP server determines which scope to serve the remote subnet using the GIADDR (Gateway Interface Address) field of the DHCP packet. The GIADDR field is filled with the IP address of either the IP helper interface or the DHCP relay agent IP address on which the broadcast was heard. It is the router or DHCP relay agent’s responsibility to complete the GIADDR field.
+
+Q: What is the primary use of Punchdown Blocks in networking?
+A. They are primarily used with Voice over IP (VoIP) systems.
+B. They are almost always used with analog or digital time division multiplexing (TDM) phone installations.
+C. They are most commonly used with Power over Ethernet (PoE) systems.
+D. They are used to connect to the network’s firewall.
+Answer: BExplanation: Punchdown Blocks are usually used in analog or digital TDM phone installations, as they facilitate in connecting and managing the telephony hardware for these systems.
+
+Q: According to the National Institute of Standards and Technology (NIST), which three service types are defined for cloud computing?
+A. Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS)
+B. Networking as a Service (NaaS), Disaster Recovery as a Service (DRaaS), and Infrastructure as a Service (IaaS)
+C. Software as a Service (SaaS), Disaster Recovery as a Service (DRaaS), and Networking as a Service (NaaS)
+D. Internet as a Service (InaaS), NaaS, and PaaS
+Answer: A
+Explanation: The National Institute of Standards and Technology (NIST) has officially defined three service types for cloud computing: Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS). Even though there are more service types in cloud computing, NIST believes these additional services fall under one of the already established categories.
+
+Q: Which of the following is NOT an advantage provided by the OSI model?
+A. It encourages multi-vendor development of hardware and software
+B. It allows network protocols and connectivity options to be changed without affecting applications
+C. It requires changes in one layer to propagate to all others
+D. It divides a complex communications process into smaller pieces to assist with design, troubleshooting, and development
+Answer: C
+Explanation: The OSI model is designed such that changes in one layer do not impact the other layers. Therefore, answer C is incorrect because changes in one layer do not have to propagate to all others.
+
+Q: What is the primary function of Port Address Translation (PAT)?
+A. It creates a one-to-one mapping from private to public IP addresses.
+B. It creates many-to-one mapping from private to public IP addresses.
+C. It translates the inside local port number to a different outside global port number.
+D. It directly maps the inside local port number to the same inside global port number.
+Answer: B
+Explanation: Port Address Translation (PAT) uses a single public (inside global) IP address to translate all of the private (inside local) IP addresses in a house or business. This is considered a many-to-one mapping of IP addresses.
+
+Q: What is a significant difference between a virtual switch and a physical switch?
+A. A virtual switch does not perform the same functions as a physical switch
+B. The number of ports on a virtual switch is fixed like a physical switch
+C. A virtual switch is not scalable
+D. A virtual switch can simply add more ports unlike a physical switch
+Answer: D
+Explanation: Unlike a physical switch where the number of ports is defined and can only be increased by upgrading or replacing the switch, a virtual switch is scalable and can simply add more ports as needed.
+
+Q: What is the role of the Internet Assigned Numbers Authority (IANA) as referenced in RFC 1918?
+A. It assigns public IP addresses to private companies, government entities, and RIRs.
+B. It assigns private IP addresses to ISPs.
+C. It distributes the remaining IPv4 addresses to the general public.
+D. It coordinates IPv6 address space.
+Answer: A
+Explanation: IANA used to assign public IP addresses to private companies and governmental entities, and it coordinates the assignment of public IP addresses to Regional Internet Registries (RIRs). The RIRs, in turn, assign smaller blocks of public IPs to ISPs.
+
+Q: Which of the following describes the function of link-local addresses in IPv6 (fe80::/10)?
+A. They are used for external Internet routing
+B. They assign the first 24 bits to determine the registry, ISP and company
+C. They function similar to private IP addresses in IPv4
+D. They are used for local access on a network and are unrouteable
+Answer: D
+Explanation: Link-local addresses in IPv6 (fe80::/10) are used for local access on a network and are unrouteable. They function similarly to link-local addresses in IPv4 or Automatic Private IP Addressing (APIPA) addresses in Microsoft terms. These addresses are specifically meant for communication within a local network.
+
+Q: What is Infrastructure as Code (IaC) and how it is related to DevOps?
+A. IaC is a manual way of handling network operations and it is not related to DevOps.
+B. IaC is a term used to describe the ability of developers to provision infrastructure and become an integral part of IT, giving rise to the term DevOps.
+C. IaC is a simplified process of bug testing by developers and it has a direct link with DevOps.
+D. IaC is a process involving ticket submission by developers to network operations for managing infrastructure, leading to DevOps.
+Answer: B
+Explanation: The text describes Infrastructure as Code (IaC) as a practice that gives developers the ability to provision infrastructure, essentially making developers an extension of IT operations. This combination of development and operations is the essence of the term DevOps.
+
+Q: Which of the following best describes how an IPv6 address differs from an IPv4 address?
+A. An IPv6 address is 32 bits long.
+B. No binary math is involved with subnetting in an IPv6 address.
+C. IPv6 addresses are easier to notate than IPv4 addresses.
+D. There are fewer network and host addresses in IPv6.
+Answer: B
+Explanation: This is correct because the IETF has built subnetting into the IPv6 address, thereby eliminating the need for binary math involved in subnetting. Additionally, IPv6 consists of a 128-bit address, making it much longer than an IPv4 address, offering a larger number of usable addresses.
+
+Q: What is the correct order of the process for DHCP on a client?
+A. Offer, Acknowledge, Discover, Request
+B. Discover, Acknowledge, Request, Offer
+C. Discover, Offer, Request, Acknowledge
+D. Acknowledge, Request, Discover, Offer
+Answer: C
+Explanation: The DHCP process for a client follows the DORA process – Discover, Offer, Request, and Acknowledge. First, the client sends a DHCP Discover broadcast to the network. The server hears this and sends a unicast frame with a DHCP Offer of an IP address, subnet mask, and any options back to the client. The client then broadcasts a DHCP Request for the IP address, subnet mask, and options. Lastly, the request is acknowledged by the server with a DHCP Acknowledge unicast back to the client.
+
+Q: What is the maximum distance that Category 6 cable can cover for a 1 Gbps network?
+A. 100 meters
+B. 55 meters
+C. 33 meters
+D. 25 meters
+Answer: A
+Explanation: According to the text, Category 6 cable can cover a maximum distance of 100 meters for a 1 Gbps network.
+
+Q: What are the primary purposes of cable management in network installation?
+A. To impress clients and reduce cost
+B. To allow for easy changes and remove weight from cable ends
+C. To prevent theft and organize cables
+D. To look organized and take the weight off the cable ends
+Answer: D
+Explanation: The text states that cable management serves two distinct purposes: it makes everything look organized, and it takes the weight off the cable ends. This protects the network’s physical infrastructure, especially when it comes to patch cables that do not have a strength member and can strain under their own weight.
+
+Q: What does TCP provide that UDP does not?
+A. Faster data transmission
+B. Connectionless data transfer
+C. Retransmission of lost data segments
+D. Negotiation of the timeout period
+Answer: C
+Explanation: TCP, in its three-way handshake, negotiates the window buffer size on each side before data transfer. This buffer size determines the sliding TCP window for acknowledgment of segments during the transfer. This feature is not available in UDP which is a connectionless protocol.
+
+Q: Which of the following statements about SNMP is correct?
+A. SNMP only operates on TCP
+B. SNMP monitors servers and network devices using HTTP
+C. The NMS is notified of problems through SNMP traps sent to UDP port 161
+D. SNMP agents and servers listen for requests on UDP port 161
+Answer: D
+Explanation: SNMP is used for the management of servers and network devices. SNMP interacts with a centrally located network management station (NMS) to perform its functions. SNMP is largely supported via UDP, and specific UDP ports are assigned for communication. SNMP agents and servers specifically listen for requests on UDP port 161.
+
+Q: What is the role of the application layer in a software-defined networking model?
+A. It’s where the programmability elements such as applications or APIs are found.
+B. It communicates directly with the network hardware.
+C. It allows devices to be managed for the control and flow of data.
+D. It replaces the need for physical networking devices completely.
+Answer: A
+Explanation: In the software-defined networking model, the application layer serves as the home to the programmability elements. These elements, which can exist in the form of applications or APIs, are responsible for various services associated with the SDN controller, like monitoring, management, troubleshooting, network policies, security policies, network automation, and network configuration.
+
+Q: What was the hosts file originally used for?
+A. For translation of hosts to IP addresses.
+B. For registration of domain names with a name authority.
+C. As an override to the Domain Name System (DNS).
+D. For defining the partition of domain namespace.
+Answer: A
+Explanation: Originally, the hosts file was used for translating host names to IP addressing. This was centrally managed in the early days of the ARPAnet when the number of hosts was limited.
+
+Q: Why should the TIA/EIA 568 wiring standards be followed when terminating the RJ-45 connectors on the ends of a patch cable?
+A. To ensure compatibility with wireless standards
+B. To follow manufacturer requirements
+C. To ensure network cabling doesn’t fail certification and works at the expected speeds
+D. To standardize the coloring used in the wiring
+Answer: C
+Explanation: Adhering to the TIA/EIA 568 wiring standards helps avoid failure during network cabling certification and also ensures that the network works at the expected speeds.
+
+Q:What is the role of Server Message Blocks (SMBs) in a Network Attached Storage (NAS) system?
+A. Facilitates user authentication for the NAS system
+B. Responsible for performing commands against a file structure
+C. Provides backup and replication services for the NAS system
+D. Ensures high-speed connectivity between the NAS and client devices
+Answer: B
+Explanation: In a Network Attached Storage (NAS) system, Server Message Blocks (SMBs) receive commands from hosts to read, write, and delete files. SMBs then perform these commands against a file structure such as NTFS.
+
+Q:What does the Token Ring technology utilize in its functioning?
+A. Each device sends messages simultaneously
+B. The devices pass a token around the ring, and the device which seizes the token transmits a message
+C. Messages are sent randomly by each device
+D. Only one device can transmit messages
+Answer: B
+Explanation: The Token Ring protocol works on the principle of token-passing. A central controller sends a 3-byte token frame around the network. Any device that wants to send a message must first seize the token. After a device has seized the token, no other device can transmit a message until the token is released.
+
+Q: What does Dynamic DNS accomplish?
+A. It prevents hosts from updating their A records
+B. It forces the administrator to manually maintain PTR records
+C. It allows hosts to add and update their own A and PTR records
+D. It removes protection for entries added by hosts
+Answer: C
+Explanation: Dynamic DNS allows hosts to add and update their own A (addressing) records and PTR (pointer) records. The entries are then automatically maintained, which leads to consistent accuracy and less work for administrators.
+
+Q: Which of the following describes the class of an IP address that has a default mask of 255.0.0.0 and a range of 1 to 126 for the first octet?
+A. Class A
+B. Class B
+C. Class C
+D. Class D
+Answer: A
+Explanation: Class A network IDs have a range of 1 to 126 for the first octet and use the default subnet mask 255.0.0.0. They are typically used for very large networks with millions of hosts.
+
+Q: What is the role of the PDU header or type field during the decapsulation process in the OSI model?
+A. It carries the payload from one layer to the next in the protocol stack.
+B. It describes the delivery company chosen for transmitting data.
+C. It holds information which upper layer the payload came from and to which it should be passed.
+D. It is the envelope placed inside another that specifies street address.
+Answer: C
+Explanation: During the decapsulation process, the information in the PDU header or type field indicates where the payload originated by specifying which upper layer it came from. It also describes to which upper layer the payload should be transmitted. This is critical for the data to be passed correctly through each layer of the OSI model.
+
+Q: What does the host do to obtain a routable IPv6 address with Stateless Address Autoconfiguration (SLAAC)?
+A. It sends a Router Solicitation (RS) to the multicast address of all routers from the link-local address.
+B. It directly requests the router for an address.
+C. It uses a 64-bit value to assign the interface ID portion of the IPv6 address.
+D. It determines the routable address on its own without any interaction with the router.
+Answer: A
+Explanation: In Stateless Address Autoconfiguration (SLAAC), when the host needs a routable IPv6 address, it sends a Router Solicitation (RS) to the multicast address of all routers (ff02::2). This is done from the link-local address that was automatically configured and checked.
+
+Q: What is the function of a subinterface in a router configuration?
+A. To designate the primary IP address for the router
+B. To facilitate communication between different VLANs
+C. To regulate traffic based on packet size
+D. To provide additional storage for data packets
+Answer: B
+Explanation: Subinterfaces allow a router to contain multiple logical IP addresses. This is helpful when the router needs to interface with multiple VLANs, as each VLAN and IP subnet can have their own assigned subinterface.
+
+Q: Which of the following correctly describes the function of a Converged Network Adapter (CNA) in a Fiber Channel over Ethernet (FCoE) setup?
+A. It acts as an Ethernet card and encapsulates FC commands into Ethernet frames.
+B. It reduces the need for Ethernet cables in the data center.
+C. It directly communicates with the FC storage unit.
+D. It forwards Ethernet packets to the FC switching plane.
+Answer: A
+Explanation: The Converged Network Adapter (CNA) in a Fiber Channel over Ethernet (FCoE) setup acts as an Ethernet card and a Fibre Channel Host Bus Adapter (HBA). When Fibre Channel commands are sent to the CNA, it encapsulates the FC data into an Ethernet frame and sends it to the data center switch.
+
+Q: What is the purpose of the DHCP service?
+A. To calculate network load balancing
+B. To assign an IPv4 address to clients dynamically as they join the network
+C. To provide fault tolerance for the network
+D. To serve as the main interface for network management
+Answer: B
+Explanation: The main purpose of the DHCP (Dynamic Host Configuration Protocol) service is to dynamically assign an IPv4 address to clients as they join the network. Without DHCP, network administrators would have to manually assign IP addresses to each client, a time-consuming task especially for large networks.
+
+Q: Which of the following best describes a declarative approach in Infrastructure as Code (IaC)?
+
+A. It lists all the steps to get to the desired state, like installing Ubuntu 20.04, configuring hostname, installing Apache etc.
+B. It relies heavily on the order of installation and if one step errors, the preceding lines need to be debugged.
+C. It presents a desired state, like having an Ubuntu server with Apache, PHP, and MySQL installed, and doesn’t concern itself with how that state is reached.
+D. It requires manual creation of environments for each developer.
+Answer: C
+Explanation: In a declarative approach, a desired endpoint or state is specified, and the details of how that endpoint is reached are abstracted away. This approach doesn’t focus on the specific steps or sequence in which these steps should happen, making it more flexible and efficient in deploying identical setups across multiple environments.
+
+Q: hich of the following statements about Server Message Block (SMB) protocol is NOT accurate?
+A. SMB listens for requests on TCP port 445.
+B. SMB 3.1.1 is used for database and virtual machine storage over the network.
+C. SMB is used with Microsoft products and is known as the Common Internet File System (CIFS).
+D. SMB is a wireless protocol used to connect devices in a Local Area Network.
+Answer: D
+Explanation: SMB, or Server Message Block, is a network protocol commonly used for file and printer sharing among devices within a network, primarily associated with Microsoft products. However, it is not a wireless protocol specifically designed for connecting devices in a Local Area Network (LAN). It can run on wireless networks as well as wired ones.
+
+Q: Which system uses narrower chunks of light wave space to pack as much data into the bandwidth of the glass?
+A. Duplex fiber-optic transceiver
+B. Coarse Wavelength Division Multiplexing (CWDM)
+C. Dense Wavelength Division Multiplexing (DWDM)
+D. Dark fiber methods
+Answer: C
+Explanation: Dense Wavelength Division Multiplexing (DWDM) uses narrower chunks of light wave space to pack as much data into the bandwidth of the glass, allowing up to 80 separate channels to be multiplexed together and closely packed, leading to higher capacity.
+
+Q: Which of the following statements about Unshielded twisted-pair (UTP) is incorrect?
+A. UTP is the most common cabling for Ethernet networks today.
+B. UTP is shielded from electromagnetic interference (EMI).
+C. UTP should always be cabled away from electrical lines and non-network cabling.
+D. UTP cable has a PVC or Teflon cable jacket and contains four pairs of wires.
+Answer: B
+Explanation: UTP is not shielded from electromagnetic interference (EMI). It is actually unshielded from EMI, therefore UTP should be cabled away from electrical lines and non-network cabling.
+
+Q: What does BNC in BNC connector stand for and for what purposes are these connectors used?
+A. Bayonet Neill-Concelman, used for 100BaseT LAN coaxial networks and security camera systems
+B. Bayesian Network Connector, used for T3 WAN connections and radio equipment
+C. British Naval Connector, used for 10Base2 LAN coaxial networks and security camera systems
+D. Binary Network Connection, used for radio equipment and coax cameras
+Answer: C
+Explanation: BNC in BNC connector stands for either Bayonet Neill-Concelman or British Naval Connector. These connectors were used for 10Base2 LAN coaxial networks and currently are used in security camera systems among other things.
+
+Q: What is the maximum distance that 1000BaseSX can achieve over 50-micron fiber-optic cabling?
+A. 500 meters
+B. 550 meters
+C. 600 meters
+D. 450 meters
+Answer: B
+Explanation: 1000BaseSX uses an 850 nm signal over 50-micron fiber-optic cabling to achieve a maximum distance of 550 meters.
+
+Q: What best describes the function of Multiprotocol Label Switching (MPLS)?
+A. It packet-switches data based on the layer 3 network addressing.
+B. It uses an MPLS label to packet-switch data and operates at layer 2.5.
+C. It requires a layer 2 protocol and uses the destination IP address for routing decisions.
+D. It is a pure layer 3 protocol that eradicates the need for an underlying leased line.
+Answer: B
+Explanation: MPLS adds a label to each packet, allowing the data to be packet-switched based on the label, not the layer 3 network addressing. As a result, it functions at layer 2.5, since it does not purely function as a layer 2 or layer 3 protocol.
+
+Q: Which statement accurately describes the 1000BaseT standard?
+A. It is defined by the IEEE as 802.3u
+B. It uses TIA/EIA Category 3 or higher cabling
+C. It can achieve an Ethernet speed of 40 Gbps
+D. It uses all four pairs in the cabling
+Answer: D
+Explanation: The 1000BaseT standard, also known as Gigabit Ethernet, uses all four pairs in the cabling. It is defined by the IEEE as 802.3ab and is capable of delivering Ethernet speeds of 1 Gbps.
+
+Q: What issue could arise with the quality of service when using a VPN to access applications in a public cloud?
+A. The VPN does not allow for any kind of encryption
+B. Applications that are prone to latency might run poorly
+C. The VPN reduces the overall data bandwidth
+D. The VPN prevents direct access to the cloud provider
+Answer: B
+Explanation: VPNs can transmit data securely over the Internet through an encrypted tunnel. However, this method does not guarantee a certain level of quality of service end to end. Therefore, applications that are sensitive to latency might run poorly over a VPN.
+
+Q: What does the classless IP address category specify?
+A. We adhere to the classful assignment of the IETF and supernetting is not possible.
+B. It mandates that we should stick with /16 mask in Class B addressing.
+C. It allows subnetting and supernetting due to IPv4 address scarcity and doesn’t stick to classful assignment of the IETF.
+D. It doesn’t allow the grouping of multiple /16 networks into a /12 network.
+Answer: C
+Explanation: The text states that the classless IP address category allows for subnetting and supernetting and does not adhere to the classful assignment of the IETF due to the scarcity of IPv4 addresses.

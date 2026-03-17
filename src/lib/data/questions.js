@@ -151,7 +151,17 @@ export const seedQuestions = [
     options: ['A. STP', 'B. OSPF', 'C. HSRP', 'D. LACP'],
     answer: 'C',
     explanation: `## HSRP — Hot Standby Router Protocol\n**HSRP** (Cisco proprietary) allows multiple routers to present a single virtual IP/MAC as the default gateway. One router is active, others are standby.\n\n- **VRRP** is the open-standard equivalent of HSRP\n- **STP** — prevents Layer 2 loops, not gateway redundancy\n- **OSPF** — dynamic routing protocol\n- **LACP** — link aggregation (bundles physical ports)`
-  }
+  },
+
+  // ── q016–q035: Networking Concepts — fill these in ──────────────────────────
+  {
+    id: 'q016',
+    domain: 'Networking Concepts',
+    question: 'What is the primary benefit of utilizing SMTP TLS?',
+    options: ['A. It increases the delivery speed of emails', 'B. It ensures that all mail is encrypted in transit', 'C. It eliminates the need for authentication', 'D. It allows the use of UDP instead of TCP'],
+    answer: 'B',
+    explanation: 'Simple Mail Transfer Protocol (SMTP) operating over Transport Layer Security (TLS) ensures that all mail is encrypted in transit, increasing the security of the mail’s content.'
+  },
 ];
 
 export const domains = [
